@@ -340,3 +340,51 @@ discord.ext.commands.errors.CommandNotFound: Command "helo" is not found
 2024-08-19 14:23:18,074 INFO discord.client: logging in using static token
 2024-08-19 14:23:19,288 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 32fe1dc800d1a3bfbb8015038385fbeb).
 2024-08-19 14:37:59,290 INFO discord.gateway: Shard ID None has successfully RESUMED session 32fe1dc800d1a3bfbb8015038385fbeb.
+2024-08-19 15:09:22,397 ERROR discord.ext.commands.bot: Ignoring exception in command setprefix
+Traceback (most recent call last):
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1366, in invoke
+    await ctx.command.invoke(ctx)
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ext\commands\core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ext\commands\core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ext\commands\core.py", line 697, in transform
+    raise MissingRequiredArgument(param)
+discord.ext.commands.errors.MissingRequiredArgument: prefix is a required argument that is missing.
+2024-08-19 15:10:41,700 ERROR discord.ext.commands.bot: Ignoring exception in command addcommand
+Traceback (most recent call last):
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1366, in invoke
+    await ctx.command.invoke(ctx)
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ext\commands\core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ext\commands\core.py", line 853, in _parse_arguments
+    kwargs[name] = await self.transform(ctx, param, attachments)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ext\commands\core.py", line 697, in transform
+    raise MissingRequiredArgument(param)
+discord.ext.commands.errors.MissingRequiredArgument: response is a required argument that is missing.
+2024-08-19 15:11:23,405 ERROR discord.ext.commands.bot: Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "SAUDAcao" is not found
+2024-08-19 16:10:18,566 INFO discord.gateway: Shard ID None has successfully RESUMED session 32fe1dc800d1a3bfbb8015038385fbeb.
+2024-08-19 16:17:15,458 INFO bot: Bot está iniciando...
+2024-08-19 16:17:15,459 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-19 16:17:15,461 INFO discord.client: logging in using static token
+2024-08-19 16:20:20,367 INFO bot: Bot está iniciando...
+2024-08-19 16:20:20,367 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-19 16:20:20,370 INFO discord.client: logging in using static token
+2024-08-19 16:20:30,758 INFO bot: Bot está iniciando...
+2024-08-19 16:20:30,759 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-19 16:20:30,762 INFO discord.client: logging in using static token
+2024-08-19 16:21:20,886 INFO bot: Bot está iniciando...
+2024-08-19 16:21:20,886 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-19 16:21:20,889 INFO discord.client: logging in using static token
+2024-08-19 16:21:22,223 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 2309efed402a079b1acdbb629ea0493f).
+2024-08-19 16:23:15,433 INFO bot: Bot está iniciando...
+2024-08-19 16:23:15,434 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-19 16:23:15,437 INFO discord.client: logging in using static token
+2024-08-19 16:23:16,402 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 94b4f983caededad6f4d724b5d71c1cf).

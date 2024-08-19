@@ -216,7 +216,7 @@ class PontoView(View):
         )
         # Após desativar, enviar uma nova mensagem informando que o ciclo foi finalizado
         await interaction.followup.send(
-            f'{interaction.user.mention}, você finalizou o seu dia de trabalho. Use o comando `!ponto` para iniciar um novo ciclo de ponto.',
+            f'{interaction.user.mention}, você finalizou o seu dia de trabalho. Use o comando `!ponto` para iniciar um novo ciclo de Trabalho.',
             ephemeral=True
         )
 
@@ -253,4 +253,4 @@ async def set_prefix(ctx, prefix):
 
 # Rodar o bot
 if __name__ == "__main__":
-    bot.run('MTI3MDQyNjk1NTQ0MjgxOTEwMw.GZedu_.NWy-gdkVyL7bF-8T1DDpDUGN8XIE8oyqyK0Axs')
+    bot.run(token)
