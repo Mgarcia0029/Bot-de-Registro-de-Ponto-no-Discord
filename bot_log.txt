@@ -1,132 +1,132 @@
-2024-08-07 07:52:34,275 INFO bot: Bot est· iniciando...
+2024-08-07 07:52:34,275 INFO bot: Bot est? iniciando...
 2024-08-07 07:52:34,277 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 07:52:34,280 INFO discord.client: logging in using static token
 2024-08-07 07:52:35,529 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 6a0f266b68adeb92ddd3a967d38f1d71).
-2024-08-07 08:01:19,189 INFO bot: Bot est· iniciando...
+2024-08-07 08:01:19,189 INFO bot: Bot est? iniciando...
 2024-08-07 08:01:19,190 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 08:01:19,193 INFO discord.client: logging in using static token
 2024-08-07 08:01:20,137 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 7c1951b2837d072aa3ea86dd38f097b9).
-2024-08-07 08:06:41,623 INFO bot: Bot est· iniciando...
+2024-08-07 08:06:41,623 INFO bot: Bot est? iniciando...
 2024-08-07 08:06:41,625 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 08:06:41,628 INFO discord.client: logging in using static token
 2024-08-07 08:06:42,755 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 32f83a376f3c607b598c7a5fc4624335).
-2024-08-07 08:08:20,234 INFO bot: Bot est· iniciando...
+2024-08-07 08:08:20,234 INFO bot: Bot est? iniciando...
 2024-08-07 08:08:20,236 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 08:08:20,238 INFO discord.client: logging in using static token
 2024-08-07 08:08:21,292 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 280068d592b082d345b29e68634f2309).
-2024-08-07 08:08:28,134 INFO bot: Bot est· iniciando...
+2024-08-07 08:08:28,134 INFO bot: Bot est? iniciando...
 2024-08-07 08:08:28,136 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 08:08:28,138 INFO discord.client: logging in using static token
 2024-08-07 08:08:29,070 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 607a0216aa3c05c850627b2b31dd7f85).
-2024-08-07 08:22:47,053 INFO bot: Bot est· iniciando...
+2024-08-07 08:22:47,053 INFO bot: Bot est? iniciando...
 2024-08-07 08:22:47,055 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 08:22:47,057 INFO discord.client: logging in using static token
 2024-08-07 08:22:48,098 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 6bc512b6f7b08064834ab004878407f1).
-2024-08-07 08:22:50,102 INFO bot: ponto CS est· pronto e conectado ao Discord!
-2024-08-07 08:28:46,297 INFO bot: Bot est· iniciando...
+2024-08-07 08:22:50,102 INFO bot: ponto CS est? pronto e conectado ao Discord!
+2024-08-07 08:28:46,297 INFO bot: Bot est? iniciando...
 2024-08-07 08:28:46,299 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 08:28:46,302 INFO discord.client: logging in using static token
 2024-08-07 08:28:47,237 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: fa24491c6860c9a822a94921eea46a39).
-2024-08-07 08:28:49,249 INFO bot: ponto CS est· pronto e conectado ao Discord!
-2024-08-07 08:34:18,823 INFO bot: Bot est· iniciando...
+2024-08-07 08:28:49,249 INFO bot: ponto CS est? pronto e conectado ao Discord!
+2024-08-07 08:34:18,823 INFO bot: Bot est? iniciando...
 2024-08-07 08:34:18,825 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 08:34:18,827 INFO discord.client: logging in using static token
 2024-08-07 08:34:19,794 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: b3f5ce1bb18927eca94c4dceec5cd335).
-2024-08-07 08:34:23,656 INFO bot: Bot est· iniciando...
+2024-08-07 08:34:23,656 INFO bot: Bot est? iniciando...
 2024-08-07 08:34:23,658 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 08:34:23,660 INFO discord.client: logging in using static token
 2024-08-07 08:34:24,726 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 6ea2b2e85f39c515632ec5e7cd914da1).
-2024-08-07 08:34:26,735 INFO bot: ponto CS est· pronto e conectado ao Discord!
-2024-08-07 08:55:47,446 INFO bot: Bot est· iniciando...
+2024-08-07 08:34:26,735 INFO bot: ponto CS est? pronto e conectado ao Discord!
+2024-08-07 08:55:47,446 INFO bot: Bot est? iniciando...
 2024-08-07 08:55:47,448 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 08:55:47,451 INFO discord.client: logging in using static token
 2024-08-07 08:55:49,178 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: d2bcff4fb567a517399d73c84157d6bf).
-2024-08-07 08:55:51,197 INFO bot: ponto CS est· pronto e conectado ao Discord!
-2024-08-07 08:59:39,987 INFO bot: Bot est· iniciando...
+2024-08-07 08:55:51,197 INFO bot: ponto CS est? pronto e conectado ao Discord!
+2024-08-07 08:59:39,987 INFO bot: Bot est? iniciando...
 2024-08-07 08:59:39,989 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 08:59:39,991 INFO discord.client: logging in using static token
 2024-08-07 08:59:40,975 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: b0784ebcf110bdd34e0a4f0f4de297f1).
-2024-08-07 08:59:42,981 INFO bot: ponto CS est· pronto e conectado ao Discord!
-2024-08-07 09:05:55,164 INFO bot: Bot est· iniciando...
+2024-08-07 08:59:42,981 INFO bot: ponto CS est? pronto e conectado ao Discord!
+2024-08-07 09:05:55,164 INFO bot: Bot est? iniciando...
 2024-08-07 09:05:55,167 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 09:05:55,181 INFO discord.client: logging in using static token
 2024-08-07 09:05:56,224 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 00375d555ccbc3a41fecc73731bd2a27).
-2024-08-07 09:06:04,013 INFO bot: Bot est· iniciando...
+2024-08-07 09:06:04,013 INFO bot: Bot est? iniciando...
 2024-08-07 09:06:04,015 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 09:06:04,017 INFO discord.client: logging in using static token
 2024-08-07 09:06:04,972 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 6a227e3cbd0f8ffa94fad89743c4ef2a).
-2024-08-07 09:11:53,713 INFO bot: Bot est· iniciando...
+2024-08-07 09:11:53,713 INFO bot: Bot est? iniciando...
 2024-08-07 09:11:53,715 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 09:11:53,718 INFO discord.client: logging in using static token
 2024-08-07 09:11:54,733 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 030a3df52255ad9c13cacc9bb3859f78).
 2024-08-07 09:12:03,432 ERROR discord.ext.commands.bot: Ignoring exception in command None
 discord.ext.commands.errors.CommandNotFound: Command "pont" is not found
-2024-08-07 09:16:53,753 INFO bot: Bot est· iniciando...
+2024-08-07 09:16:53,753 INFO bot: Bot est? iniciando...
 2024-08-07 09:16:53,755 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 09:16:53,758 INFO discord.client: logging in using static token
 2024-08-07 09:16:54,875 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 1170fe93a7e10a7082eeef6d56554a50).
-2024-08-07 09:24:56,602 INFO bot: Bot est· iniciando...
+2024-08-07 09:24:56,602 INFO bot: Bot est? iniciando...
 2024-08-07 09:24:56,603 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 09:24:56,607 INFO discord.client: logging in using static token
 2024-08-07 09:24:57,739 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 72afd01fab81fbec815469900b225616).
-2024-08-07 09:24:59,747 INFO bot: ponto CS est· pronto e conectado ao Discord!
-2024-08-07 09:30:48,747 INFO bot: Bot est· iniciando...
+2024-08-07 09:24:59,747 INFO bot: ponto CS est? pronto e conectado ao Discord!
+2024-08-07 09:30:48,747 INFO bot: Bot est? iniciando...
 2024-08-07 09:30:48,749 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 09:30:48,752 INFO discord.client: logging in using static token
 2024-08-07 09:30:49,777 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 19b1eaf54eab8d96b015bfdad9bd0ab7).
-2024-08-07 09:30:51,789 INFO bot: ponto CS est· pronto e conectado ao Discord!
-2024-08-07 09:35:29,517 INFO bot: Bot est· iniciando...
+2024-08-07 09:30:51,789 INFO bot: ponto CS est? pronto e conectado ao Discord!
+2024-08-07 09:35:29,517 INFO bot: Bot est? iniciando...
 2024-08-07 09:35:29,519 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 09:35:29,522 INFO discord.client: logging in using static token
 2024-08-07 09:35:30,558 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 28fe78ec1e7a9a60aaeaff9e0cca1e11).
 2024-08-07 09:35:38,107 ERROR discord.ext.commands.bot: Ignoring exception in command None
 discord.ext.commands.errors.CommandNotFound: Command "ponto" is not found
-2024-08-07 09:37:39,751 INFO bot: Bot est· iniciando...
+2024-08-07 09:37:39,751 INFO bot: Bot est? iniciando...
 2024-08-07 09:37:39,753 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
-2024-08-07 09:37:39,754 INFO bot: Bot est· iniciando...
+2024-08-07 09:37:39,754 INFO bot: Bot est? iniciando...
 2024-08-07 09:37:39,756 INFO discord.client: logging in using static token
 2024-08-07 09:37:40,652 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: d6dc7f2a1e61b9ac7a5768d6cd079b4f).
 2024-08-07 09:37:48,986 ERROR discord.ext.commands.bot: Ignoring exception in command None
 discord.ext.commands.errors.CommandNotFound: Command "ponto" is not found
-2024-08-07 09:39:13,043 INFO bot: Bot est· iniciando...
+2024-08-07 09:39:13,043 INFO bot: Bot est? iniciando...
 2024-08-07 09:39:13,045 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 09:39:13,047 INFO discord.client: logging in using static token
 2024-08-07 09:39:14,123 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: b204c08e532cadf95504b7408b4d8825).
-2024-08-07 09:39:16,131 INFO bot: ponto CS est· pronto e conectado ao Discord!
-2024-08-07 09:44:02,391 INFO bot: Bot est· iniciando...
+2024-08-07 09:39:16,131 INFO bot: ponto CS est? pronto e conectado ao Discord!
+2024-08-07 09:44:02,391 INFO bot: Bot est? iniciando...
 2024-08-07 09:44:02,393 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 09:44:02,396 INFO discord.client: logging in using static token
 2024-08-07 09:44:03,358 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 31e6aba2ecb87aa6c567ed91e40f99ae).
-2024-08-07 09:44:05,370 INFO bot: ponto CS est· pronto e conectado ao Discord!
-2024-08-07 09:47:04,304 INFO bot: Bot est· iniciando...
+2024-08-07 09:44:05,370 INFO bot: ponto CS est? pronto e conectado ao Discord!
+2024-08-07 09:47:04,304 INFO bot: Bot est? iniciando...
 2024-08-07 09:47:04,306 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 09:47:04,308 INFO discord.client: logging in using static token
 2024-08-07 09:47:05,346 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 2460d2ca4ada2a8dcc2efb48b2f269f1).
-2024-08-07 09:47:07,353 INFO bot: ponto CS est· pronto e conectado ao Discord!
-2024-08-07 09:48:40,292 INFO bot: Bot est· iniciando...
+2024-08-07 09:47:07,353 INFO bot: ponto CS est? pronto e conectado ao Discord!
+2024-08-07 09:48:40,292 INFO bot: Bot est? iniciando...
 2024-08-07 09:48:40,294 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 09:48:40,297 INFO discord.client: logging in using static token
 2024-08-07 09:48:41,365 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 7245633eb8dbf9e0b11b385d6c6a87d0).
-2024-08-07 09:48:43,378 INFO bot: ponto CS est· pronto e conectado ao Discord!
-2024-08-07 09:51:05,390 INFO bot: Bot est· iniciando...
+2024-08-07 09:48:43,378 INFO bot: ponto CS est? pronto e conectado ao Discord!
+2024-08-07 09:51:05,390 INFO bot: Bot est? iniciando...
 2024-08-07 09:51:05,392 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 09:51:05,394 INFO discord.client: logging in using static token
 2024-08-07 09:51:06,310 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 0a9b68325a4ed3cb288f54aa43d9700b).
-2024-08-07 09:51:08,323 INFO bot: ponto CS est· pronto e conectado ao Discord!
-2024-08-07 09:55:16,457 INFO bot: Bot est· iniciando...
+2024-08-07 09:51:08,323 INFO bot: ponto CS est? pronto e conectado ao Discord!
+2024-08-07 09:55:16,457 INFO bot: Bot est? iniciando...
 2024-08-07 09:55:16,459 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 09:55:16,462 INFO discord.client: logging in using static token
 2024-08-07 09:55:17,481 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: adb635d9f56221f5fa99a2d1999bf8bd).
-2024-08-07 09:55:19,483 INFO bot: ponto CS est· pronto e conectado ao Discord!
-2024-08-07 09:57:15,517 INFO bot: Bot est· iniciando...
+2024-08-07 09:55:19,483 INFO bot: ponto CS est? pronto e conectado ao Discord!
+2024-08-07 09:57:15,517 INFO bot: Bot est? iniciando...
 2024-08-07 09:57:15,519 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 09:57:15,522 INFO discord.client: logging in using static token
 2024-08-07 09:57:16,528 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 4980b0279c238900e3a6ffd74a394f47).
-2024-08-07 10:09:56,932 INFO bot: Bot est· iniciando...
+2024-08-07 10:09:56,932 INFO bot: Bot est? iniciando...
 2024-08-07 10:09:56,934 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 10:09:56,938 INFO discord.client: logging in using static token
 2024-08-07 10:09:57,827 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 5d8977bb7dac5e31c3e8ba551d01da84).
-2024-08-07 10:29:59,072 INFO bot: Bot est· iniciando...
+2024-08-07 10:29:59,072 INFO bot: Bot est? iniciando...
 2024-08-07 10:29:59,073 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 10:29:59,076 INFO discord.client: logging in using static token
 2024-08-07 10:29:59,981 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: b092e20b354ec468f0ff647f179f492c).
@@ -134,141 +134,141 @@ discord.ext.commands.errors.CommandNotFound: Command "ponto" is not found
 discord.ext.commands.errors.CommandNotFound: Command "pont" is not found
 2024-08-07 10:35:48,997 ERROR discord.ext.commands.bot: Ignoring exception in command None
 discord.ext.commands.errors.CommandNotFound: Command "ponto]" is not found
-2024-08-07 11:06:51,064 INFO bot: Bot est· iniciando...
+2024-08-07 11:06:51,064 INFO bot: Bot est? iniciando...
 2024-08-07 11:06:51,066 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 11:06:51,070 INFO discord.client: logging in using static token
 2024-08-07 11:06:52,063 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: b1de5b87fef5ea68ab777a70f9ccc610).
-2024-08-07 11:09:48,780 INFO bot: Bot est· iniciando...
+2024-08-07 11:09:48,780 INFO bot: Bot est? iniciando...
 2024-08-07 11:09:48,781 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 11:09:48,784 INFO discord.client: logging in using static token
-2024-08-07 11:10:11,143 INFO bot: Bot est· iniciando...
+2024-08-07 11:10:11,143 INFO bot: Bot est? iniciando...
 2024-08-07 11:10:11,145 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 11:10:11,147 INFO discord.client: logging in using static token
 2024-08-07 11:10:12,182 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 1a187a192df1ce2afb5967445c323183).
-2024-08-07 11:11:41,389 INFO bot: Bot est· iniciando...
+2024-08-07 11:11:41,389 INFO bot: Bot est? iniciando...
 2024-08-07 11:11:41,390 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 11:11:41,393 INFO discord.client: logging in using static token
-2024-08-07 11:11:55,306 INFO bot: Bot est· iniciando...
+2024-08-07 11:11:55,306 INFO bot: Bot est? iniciando...
 2024-08-07 11:11:55,308 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 11:11:55,310 INFO discord.client: logging in using static token
 2024-08-07 11:11:56,316 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: db463c396c26fd8486316485d3ff43fc).
-2024-08-07 11:18:50,020 INFO bot: Bot est· iniciando...
+2024-08-07 11:18:50,020 INFO bot: Bot est? iniciando...
 2024-08-07 11:18:50,021 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 11:18:50,025 INFO discord.client: logging in using static token
 2024-08-07 11:18:50,929 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 0da2aa252b3252610423a3808e16ee7a).
 2024-08-07 11:22:50,815 INFO discord.gateway: Shard ID None session has been invalidated.
-2024-08-07 11:24:16,801 INFO bot: Bot est· iniciando...
+2024-08-07 11:24:16,801 INFO bot: Bot est? iniciando...
 2024-08-07 11:24:16,803 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 11:24:16,807 INFO discord.client: logging in using static token
 2024-08-07 11:24:17,738 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 787a054bbc31e94611e5c71e608287ce).
-2024-08-07 11:33:51,303 INFO bot: Bot est· iniciando...
+2024-08-07 11:33:51,303 INFO bot: Bot est? iniciando...
 2024-08-07 11:33:51,305 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 11:33:51,308 INFO discord.client: logging in using static token
 2024-08-07 11:33:52,402 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: efa42c00faa4bc06a33640a3d3d53590).
 2024-08-07 11:34:19,849 ERROR discord.ext.commands.bot: Ignoring exception in command None
 discord.ext.commands.errors.CommandNotFound: Command "PONTO" is not found
-2024-08-07 11:35:21,984 INFO bot: Bot est· iniciando...
+2024-08-07 11:35:21,984 INFO bot: Bot est? iniciando...
 2024-08-07 11:35:21,985 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-07 11:35:21,987 INFO discord.client: logging in using static token
 2024-08-07 11:35:23,058 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: a74603ec9766769ab2780530012c35f7).
-2024-08-08 10:04:29,548 INFO bot: Bot est· iniciando...
+2024-08-08 10:04:29,548 INFO bot: Bot est? iniciando...
 2024-08-08 10:04:29,558 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-08 10:04:29,567 INFO discord.client: logging in using static token
 2024-08-08 10:04:30,691 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 2081572a0709751e384f03e169da68f2).
-2024-08-08 10:11:24,286 INFO bot: Bot est· iniciando...
+2024-08-08 10:11:24,286 INFO bot: Bot est? iniciando...
 2024-08-08 10:11:24,289 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-08 10:11:24,292 INFO discord.client: logging in using static token
 2024-08-08 10:11:25,231 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: fd50640e858999ac5ae071169cbc0c75).
-2024-08-08 10:21:34,900 INFO bot: Bot est· iniciando...
+2024-08-08 10:21:34,900 INFO bot: Bot est? iniciando...
 2024-08-08 10:21:34,902 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-08 10:21:34,904 INFO discord.client: logging in using static token
 2024-08-08 10:21:35,934 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: b305ce1282710e2618b5394b9a4359a7).
-2024-08-08 10:26:20,863 INFO bot: Bot est· iniciando...
+2024-08-08 10:26:20,863 INFO bot: Bot est? iniciando...
 2024-08-08 10:26:20,865 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-08 10:26:20,868 INFO discord.client: logging in using static token
 2024-08-08 10:26:21,944 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 31a9919f1550fd667089c9abcc88b7cd).
-2024-08-08 10:45:00,422 INFO bot: Bot est· iniciando...
+2024-08-08 10:45:00,422 INFO bot: Bot est? iniciando...
 2024-08-08 10:45:00,423 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-08 10:45:00,425 INFO discord.client: logging in using static token
-2024-08-08 10:46:56,376 INFO bot: Bot est· iniciando...
+2024-08-08 10:46:56,376 INFO bot: Bot est? iniciando...
 2024-08-08 10:46:56,377 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-08 10:46:56,379 INFO discord.client: logging in using static token
-2024-08-08 10:48:38,000 INFO bot: Bot est· iniciando...
+2024-08-08 10:48:38,000 INFO bot: Bot est? iniciando...
 2024-08-08 10:48:38,001 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-08 10:48:38,003 INFO discord.client: logging in using static token
 2024-08-08 10:48:39,007 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 47bf6431f2acc0eb6afadd10e2f8637b).
-2024-08-08 10:49:42,845 INFO bot: Bot est· iniciando...
+2024-08-08 10:49:42,845 INFO bot: Bot est? iniciando...
 2024-08-08 10:49:42,847 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-08 10:49:42,850 INFO discord.client: logging in using static token
 2024-08-08 10:49:43,875 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: de2871a632293301f4b72c5a45994985).
-2024-08-08 10:51:52,423 INFO bot: Bot est· iniciando...
+2024-08-08 10:51:52,423 INFO bot: Bot est? iniciando...
 2024-08-08 10:51:52,424 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-08 10:51:52,426 INFO discord.client: logging in using static token
 2024-08-08 10:51:53,410 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 5abf72b1bfbc06a107d4a4f569a74414).
-2024-08-08 11:00:25,069 INFO bot: Bot est· iniciando...
+2024-08-08 11:00:25,069 INFO bot: Bot est? iniciando...
 2024-08-08 11:00:25,071 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-08 11:00:25,074 INFO discord.client: logging in using static token
 2024-08-08 11:00:26,195 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 66b24e61725f9dda4291267ce7c3f0c5).
-2024-08-11 14:01:22,937 INFO bot: Bot est· iniciando...
+2024-08-11 14:01:22,937 INFO bot: Bot est? iniciando...
 2024-08-11 14:01:22,939 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-11 14:01:22,942 INFO discord.client: logging in using static token
 2024-08-11 14:01:24,157 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 4ae31a43b075d868d8c368a68d0d1a6b).
-2024-08-11 14:03:09,442 INFO bot: Bot est· iniciando...
+2024-08-11 14:03:09,442 INFO bot: Bot est? iniciando...
 2024-08-11 14:03:09,444 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-11 14:03:09,448 INFO discord.client: logging in using static token
 2024-08-11 14:03:10,502 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 521a8fb9d858a847b1eca650f6658c2e).
-2024-08-19 10:03:55,114 INFO bot: Bot est· iniciando...
+2024-08-19 10:03:55,114 INFO bot: Bot est? iniciando...
 2024-08-19 10:03:55,116 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-19 10:03:55,125 INFO discord.client: logging in using static token
 2024-08-19 10:03:56,220 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 85fb2590e8d80f3996c377d96536083f).
-2024-08-19 10:13:09,079 INFO bot: Bot est· iniciando...
+2024-08-19 10:13:09,079 INFO bot: Bot est? iniciando...
 2024-08-19 10:13:09,080 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-19 10:13:09,082 INFO discord.client: logging in using static token
 2024-08-19 10:13:10,056 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 954e9057763f311539adeac3bc91419b).
-2024-08-19 12:04:32,958 INFO bot: Bot est· iniciando...
+2024-08-19 12:04:32,958 INFO bot: Bot est? iniciando...
 2024-08-19 12:04:32,959 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-19 12:04:32,961 INFO discord.client: logging in using static token
 2024-08-19 12:04:34,044 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 829503bbd513bae90e2737fbf57b9a49).
 2024-08-19 12:04:43,156 ERROR discord.ext.commands.bot: Ignoring exception in command None
 discord.ext.commands.errors.CommandNotFound: Command "pontro" is not found
-2024-08-19 12:05:56,487 INFO bot: Bot est· iniciando...
+2024-08-19 12:05:56,487 INFO bot: Bot est? iniciando...
 2024-08-19 12:05:56,488 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-19 12:05:56,490 INFO discord.client: logging in using static token
 2024-08-19 12:05:57,399 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 1c701ab6d6b9d9bd44bc241770431473).
-2024-08-19 12:11:34,119 INFO bot: Bot est· iniciando...
+2024-08-19 12:11:34,119 INFO bot: Bot est? iniciando...
 2024-08-19 12:11:34,120 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-19 12:11:34,122 INFO discord.client: logging in using static token
 2024-08-19 12:11:35,139 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: b3111ef4f8ddbe6b9d14369807bd9000).
-2024-08-19 12:19:14,763 INFO bot: Bot est· iniciando...
+2024-08-19 12:19:14,763 INFO bot: Bot est? iniciando...
 2024-08-19 12:19:14,764 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-19 12:19:14,766 INFO discord.client: logging in using static token
 2024-08-19 12:19:15,650 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: f97efb30b7ab8f2d3722b93e2ce186de).
-2024-08-19 12:25:04,464 INFO bot: Bot est· iniciando...
+2024-08-19 12:25:04,464 INFO bot: Bot est? iniciando...
 2024-08-19 12:25:04,465 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-19 12:25:04,467 INFO discord.client: logging in using static token
 2024-08-19 12:25:05,708 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 4c4f09f747d6bc68ce911e10c17ae05d).
-2024-08-19 12:25:59,312 INFO bot: Bot est· iniciando...
+2024-08-19 12:25:59,312 INFO bot: Bot est? iniciando...
 2024-08-19 12:25:59,313 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-19 12:25:59,315 INFO discord.client: logging in using static token
 2024-08-19 12:26:00,381 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 7a1bef9b3cbc1659bf30ec891a2a46e9).
-2024-08-19 12:37:57,234 INFO bot: Bot est· iniciando...
+2024-08-19 12:37:57,234 INFO bot: Bot est? iniciando...
 2024-08-19 12:37:57,235 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-19 12:37:57,237 INFO discord.client: logging in using static token
 2024-08-19 12:37:58,252 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 402ffe2c8e767e062711310457ad24db).
-2024-08-19 12:51:39,553 INFO bot: Bot est√° iniciando...
+2024-08-19 12:51:39,553 INFO bot: Bot est?? iniciando...
 2024-08-19 12:51:39,554 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-19 12:51:39,556 INFO discord.client: logging in using static token
 2024-08-19 12:51:40,549 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: b793739f6681799a828c1d0001912069).
 2024-08-19 12:53:22,094 INFO discord.gateway: Shard ID None has successfully RESUMED session b793739f6681799a828c1d0001912069.
-2024-08-19 13:09:16,407 INFO bot: Bot est√° iniciando...
+2024-08-19 13:09:16,407 INFO bot: Bot est?? iniciando...
 2024-08-19 13:09:16,408 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-19 13:09:16,410 INFO discord.client: logging in using static token
 2024-08-19 13:09:17,432 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 05d9d3b02c1b43e1d330a1d46acd917e).
 2024-08-19 13:21:48,076 ERROR discord.ext.commands.bot: Ignoring exception in command None
 discord.ext.commands.errors.CommandNotFound: Command "pont" is not found
-2024-08-19 13:41:40,642 INFO bot: Bot est√° iniciando...
+2024-08-19 13:41:40,642 INFO bot: Bot est?? iniciando...
 2024-08-19 13:41:40,643 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
-2024-08-19 13:44:07,666 INFO bot: Bot est√° iniciando...
+2024-08-19 13:44:07,666 INFO bot: Bot est?? iniciando...
 2024-08-19 13:44:07,667 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-19 13:44:07,671 INFO discord.client: logging in using static token
 2024-08-19 13:44:08,944 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 970d8d5f38b5043d0b7d5822223fa66f).
@@ -278,13 +278,13 @@ discord.ext.commands.errors.CommandNotFound: Command "pont" is not found
 discord.ext.commands.errors.CommandNotFound: Command "ponto" is not found
 2024-08-19 13:44:48,747 ERROR discord.ext.commands.bot: Ignoring exception in command None
 discord.ext.commands.errors.CommandNotFound: Command "ponto" is not found
-2024-08-19 13:45:27,965 INFO bot: Bot est√° iniciando...
+2024-08-19 13:45:27,965 INFO bot: Bot est?? iniciando...
 2024-08-19 13:45:27,966 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-19 13:45:27,968 INFO discord.client: logging in using static token
 2024-08-19 13:45:29,130 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 31ae2fed915b2bc34b2a97ee6b824494).
 2024-08-19 13:45:39,330 ERROR discord.ext.commands.bot: Ignoring exception in command None
 discord.ext.commands.errors.CommandNotFound: Command "ponto" is not found
-2024-08-19 13:47:17,102 INFO bot: Bot est√° iniciando...
+2024-08-19 13:47:17,102 INFO bot: Bot est?? iniciando...
 2024-08-19 13:47:17,102 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-19 13:47:17,104 INFO discord.client: logging in using static token
 2024-08-19 13:47:18,085 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: f63bb3b00096a9684c123787875bab38).
@@ -318,24 +318,24 @@ Traceback (most recent call last):
   File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ext\commands\core.py", line 697, in transform
     raise MissingRequiredArgument(param)
 discord.ext.commands.errors.MissingRequiredArgument: prefix is a required argument that is missing.
-2024-08-19 13:54:31,686 INFO bot: Bot est√° iniciando...
+2024-08-19 13:54:31,686 INFO bot: Bot est?? iniciando...
 2024-08-19 13:54:31,687 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-19 13:54:31,689 INFO discord.client: logging in using static token
 2024-08-19 13:54:32,647 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 2cba6ba226593158cf06b37d1e16c726).
-2024-08-19 13:59:51,520 INFO bot: Bot est√° iniciando...
+2024-08-19 13:59:51,520 INFO bot: Bot est?? iniciando...
 2024-08-19 13:59:51,521 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
-2024-08-19 13:59:51,522 INFO bot: Bot est√° iniciando...
+2024-08-19 13:59:51,522 INFO bot: Bot est?? iniciando...
 2024-08-19 13:59:51,524 INFO discord.client: logging in using static token
 2024-08-19 13:59:52,480 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: dc4fdf8302e91dfaf42157eae994789b).
 2024-08-19 14:00:10,252 ERROR discord.ext.commands.bot: Ignoring exception in command None
 discord.ext.commands.errors.CommandNotFound: Command "addcommand" is not found
 2024-08-19 14:00:25,419 ERROR discord.ext.commands.bot: Ignoring exception in command None
 discord.ext.commands.errors.CommandNotFound: Command "helo" is not found
-2024-08-19 14:09:53,704 INFO bot: Bot est√° iniciando...
+2024-08-19 14:09:53,704 INFO bot: Bot est?? iniciando...
 2024-08-19 14:09:53,704 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-19 14:09:53,706 INFO discord.client: logging in using static token
 2024-08-19 14:09:54,754 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: f41054f701df0164e883c596d03e8905).
-2024-08-19 14:23:18,070 INFO bot: Bot est√° iniciando...
+2024-08-19 14:23:18,070 INFO bot: Bot est?? iniciando...
 2024-08-19 14:23:18,071 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-19 14:23:18,074 INFO discord.client: logging in using static token
 2024-08-19 14:23:19,288 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 32fe1dc800d1a3bfbb8015038385fbeb).
@@ -371,20 +371,361 @@ discord.ext.commands.errors.MissingRequiredArgument: response is a required argu
 2024-08-19 15:11:23,405 ERROR discord.ext.commands.bot: Ignoring exception in command None
 discord.ext.commands.errors.CommandNotFound: Command "SAUDAcao" is not found
 2024-08-19 16:10:18,566 INFO discord.gateway: Shard ID None has successfully RESUMED session 32fe1dc800d1a3bfbb8015038385fbeb.
-2024-08-19 16:17:15,458 INFO bot: Bot est√° iniciando...
+2024-08-19 16:17:15,458 INFO bot: Bot est?? iniciando...
 2024-08-19 16:17:15,459 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-19 16:17:15,461 INFO discord.client: logging in using static token
-2024-08-19 16:20:20,367 INFO bot: Bot est√° iniciando...
+2024-08-19 16:20:20,367 INFO bot: Bot est?? iniciando...
 2024-08-19 16:20:20,367 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-19 16:20:20,370 INFO discord.client: logging in using static token
-2024-08-19 16:20:30,758 INFO bot: Bot est√° iniciando...
+2024-08-19 16:20:30,758 INFO bot: Bot est?? iniciando...
 2024-08-19 16:20:30,759 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-19 16:20:30,762 INFO discord.client: logging in using static token
-2024-08-19 16:21:20,886 INFO bot: Bot est√° iniciando...
+2024-08-19 16:21:20,886 INFO bot: Bot est?? iniciando...
 2024-08-19 16:21:20,886 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-19 16:21:20,889 INFO discord.client: logging in using static token
 2024-08-19 16:21:22,223 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 2309efed402a079b1acdbb629ea0493f).
-2024-08-19 16:23:15,433 INFO bot: Bot est√° iniciando...
+2024-08-19 16:23:15,433 INFO bot: Bot est?? iniciando...
 2024-08-19 16:23:15,434 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-19 16:23:15,437 INFO discord.client: logging in using static token
 2024-08-19 16:23:16,402 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 94b4f983caededad6f4d724b5d71c1cf).
+2024-08-19 16:47:41,708 INFO bot: Bot est?? iniciando...
+2024-08-19 16:47:41,709 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-19 16:47:41,711 INFO discord.client: logging in using static token
+2024-08-19 16:47:42,684 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: caf8c59042fd98979597e8ca1c3cbc73).
+2024-08-19 16:50:49,124 INFO bot: Bot est?? iniciando...
+2024-08-19 16:50:49,125 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-19 16:50:49,127 INFO discord.client: logging in using static token
+2024-08-19 16:50:50,278 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 2ec09658eaba6a14fef4080470232345).
+2024-08-19 16:50:55,493 ERROR discord.ext.commands.bot: Ignoring exception in command ponto
+Traceback (most recent call last):
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\ponto_CS.py", line 254, in ponto
+    await ctx.send(embed=embed, view=view)
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ext\commands\context.py", line 1039, in send
+    return await super().send(
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\abc.py", line 1618, in send
+    data = await state.http.send_message(channel.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\http.py", line 758, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.footer.icon_url: Not a well formed URL.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1366, in invoke
+    await ctx.command.invoke(ctx)
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.footer.icon_url: Not a well formed URL.
+2024-08-19 16:54:04,988 INFO bot: Bot est?? iniciando...
+2024-08-19 16:54:04,989 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-19 16:54:04,991 INFO discord.client: logging in using static token
+2024-08-19 16:54:06,016 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 771ed69908709edcefab9fccda98dc6b).
+2024-08-19 16:55:16,379 INFO bot: Bot est?? iniciando...
+2024-08-19 16:55:16,380 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-19 16:55:16,382 INFO discord.client: logging in using static token
+2024-08-19 16:55:17,513 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: d0891ce17c2a999c51419c0faadab778).
+2024-08-19 16:55:24,970 ERROR discord.ext.commands.bot: Ignoring exception in command ponto
+Traceback (most recent call last):
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\ponto_CS.py", line 254, in ponto
+    await ctx.send(embed=embed, view=view)
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ext\commands\context.py", line 1039, in send
+    return await super().send(
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\abc.py", line 1618, in send
+    data = await state.http.send_message(channel.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\http.py", line 758, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.0.emoji.name: Invalid emoji
+In components.0.components.1.emoji.name: Invalid emoji
+In components.0.components.2.emoji.name: Invalid emoji
+In components.0.components.3.emoji.name: Invalid emoji
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1366, in invoke
+    await ctx.command.invoke(ctx)
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.0.emoji.name: Invalid emoji
+In components.0.components.1.emoji.name: Invalid emoji
+In components.0.components.2.emoji.name: Invalid emoji
+In components.0.components.3.emoji.name: Invalid emoji
+2024-08-19 16:55:42,269 INFO bot: Bot est?? iniciando...
+2024-08-19 16:55:42,270 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-19 16:55:42,272 INFO discord.client: logging in using static token
+2024-08-19 16:55:43,265 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: b0ea7c4698e16605322e2b90a09281d0).
+2024-08-19 16:55:49,582 ERROR discord.ext.commands.bot: Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "pont" is not found
+2024-08-19 16:56:19,211 ERROR discord.ui.view: Ignoring exception in view <PontoView timeout=180.0 children=4> for item <Button style=<ButtonStyle.danger: 4> url=None disabled=False label='???? Finalizar' emoji=<PartialEmoji animated=False name='????' id=None> row=None sku_id=None>
+Traceback (most recent call last):
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "D:\aulas\ponto CS\ponto_CS.py", line 222, in finalizar_button
+    if not self.verificar_ponto_aberto(user_id):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\ponto_CS.py", line 113, in verificar_ponto_aberto
+    self.c.execute('''
+sqlite3.OperationalError: near "E": syntax error
+2024-08-19 16:56:51,824 INFO bot: Bot est?? iniciando...
+2024-08-19 16:56:51,825 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-19 16:56:51,827 INFO discord.client: logging in using static token
+2024-08-19 16:56:52,815 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: afc6b355a6f5374828568086442ed7ce).
+2024-08-19 16:56:59,099 ERROR discord.ui.view: Ignoring exception in view <PontoView timeout=180.0 children=4> for item <Button style=<ButtonStyle.danger: 4> url=None disabled=False label='???? Finalizar' emoji=<PartialEmoji animated=False name='????' id=None> row=None sku_id=None>
+Traceback (most recent call last):
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "D:\aulas\ponto CS\ponto_CS.py", line 222, in finalizar_button
+    if not self.verificar_ponto_aberto(user_id):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\ponto_CS.py", line 113, in verificar_ponto_aberto
+    self.c.execute('''
+sqlite3.OperationalError: near "E": syntax error
+2024-08-19 16:57:51,570 INFO bot: Bot est?? iniciando...
+2024-08-19 16:57:51,571 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-19 16:57:51,573 INFO discord.client: logging in using static token
+2024-08-19 16:57:52,531 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 2d958a5705f7d8b036d4b6ce0ea4fae4).
+2024-08-19 16:57:59,850 ERROR discord.ui.view: Ignoring exception in view <PontoView timeout=180.0 children=4> for item <Button style=<ButtonStyle.danger: 4> url=None disabled=False label='???? Finalizar' emoji=<PartialEmoji animated=False name='????' id=None> row=None sku_id=None>
+Traceback (most recent call last):
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "D:\aulas\ponto CS\ponto_CS.py", line 222, in finalizar_button
+    if not self.verificar_ponto_aberto(user_id):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\ponto_CS.py", line 113, in verificar_ponto_aberto
+    self.c.execute('''
+sqlite3.OperationalError: near "E": syntax error
+2024-08-19 16:58:06,843 ERROR discord.ui.view: Ignoring exception in view <PontoView timeout=180.0 children=4> for item <Button style=<ButtonStyle.success: 3> url=None disabled=False label='???? Entrada' emoji=<PartialEmoji animated=False name='????' id=None> row=None sku_id=None>
+Traceback (most recent call last):
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "D:\aulas\ponto CS\ponto_CS.py", line 171, in entrada_button
+    if self.verificar_ponto_aberto(user_id):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\ponto_CS.py", line 113, in verificar_ponto_aberto
+    self.c.execute('''
+sqlite3.OperationalError: near "E": syntax error
+2024-08-19 16:59:16,002 INFO bot: Bot est?? iniciando...
+2024-08-19 16:59:16,003 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-19 16:59:16,005 INFO discord.client: logging in using static token
+2024-08-19 16:59:17,035 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 819751ee1df4db9f920e9d2506b4e18d).
+2024-08-19 19:27:36,219 INFO discord.gateway: Shard ID None has successfully RESUMED session 819751ee1df4db9f920e9d2506b4e18d.
+2024-08-20 08:25:37,847 INFO bot: Bot est?? iniciando...
+2024-08-20 08:25:37,848 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-20 08:25:37,852 INFO discord.client: logging in using static token
+2024-08-20 08:25:38,897 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 12de56af08221b4bdca9248c18462d3c).
+2024-08-20 08:28:23,860 INFO bot: Bot est?? iniciando...
+2024-08-20 08:28:23,862 INFO discord.client: logging in using static token
+2024-08-20 08:28:24,846 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 39766cecb5d51a9e552763af3ee2ff5f).
+2024-08-20 08:28:27,934 INFO bot: Bot est?? iniciando...
+2024-08-20 08:28:27,935 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-20 08:28:27,937 INFO discord.client: logging in using static token
+2024-08-20 08:28:28,864 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 7c3559cb176ca8585dcb7a360908f7c0).
+2024-08-20 08:34:19,707 INFO discord.gateway: Shard ID None has successfully RESUMED session 7c3559cb176ca8585dcb7a360908f7c0.
+2024-08-20 09:39:08,941 INFO bot: Bot est?? iniciando...
+2024-08-20 09:39:08,944 INFO discord.client: logging in using static token
+2024-08-20 09:39:10,318 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 5b77e4b8c40737fd4e88ee2224ee41ef).
+2024-08-20 16:19:17,066 INFO bot: Bot est?? iniciando...
+2024-08-20 16:19:17,067 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-20 16:19:17,069 INFO discord.client: logging in using static token
+2024-08-20 16:19:18,009 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 4d01e06462206838a67a425035391fe4).
+2024-08-20 16:22:48,122 INFO bot: Bot est?? iniciando...
+2024-08-20 16:22:48,123 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-20 16:22:48,125 INFO discord.client: logging in using static token
+2024-08-20 16:22:49,064 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 4d326dee8eb040a67b8cbc0033e0ecb4).
+2024-08-20 16:23:30,581 INFO bot: Bot est?? iniciando...
+2024-08-20 16:23:30,582 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-20 16:23:30,584 INFO discord.client: logging in using static token
+2024-08-20 16:23:31,613 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 3f14bf3bf04494f173b002c6d9b54900).
+2024-08-20 18:22:45,786 INFO bot: Bot est?? iniciando...
+2024-08-20 18:22:45,787 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-20 18:22:45,790 INFO discord.client: logging in using static token
+2024-08-20 18:22:46,769 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: a1b891af43661defa1dbdf88c7c361e6).
+2024-08-20 18:26:58,989 INFO bot: Bot est? iniciando...
+2024-08-20 18:26:58,990 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-20 18:27:02,425 INFO bot: Bot est? iniciando...
+2024-08-20 18:27:02,426 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-20 18:27:39,291 INFO bot: Bot est? iniciando...
+2024-08-20 18:27:39,292 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-20 18:28:07,320 INFO bot: Bot est? iniciando...
+2024-08-20 18:28:07,321 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-20 18:28:27,517 INFO bot: Bot est? iniciando...
+2024-08-20 18:28:27,519 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-20 18:28:27,521 INFO discord.client: logging in using static token
+2024-08-20 18:28:28,468 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 46e111fd37b035b88d99b5c89f1f4062).
+2024-08-20 18:29:34,607 INFO bot: Bot est?? iniciando...
+2024-08-20 18:29:34,608 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-20 18:29:34,610 INFO discord.client: logging in using static token
+2024-08-20 18:29:35,511 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: aa45a5b6b480ed3c9cddc9a81735c361).
+2024-08-20 18:39:56,383 INFO bot: Bot est?? iniciando...
+2024-08-20 18:39:56,383 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-20 18:39:56,385 INFO discord.client: logging in using static token
+2024-08-20 18:39:57,338 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: b7dfb3511c5116774a10795daf0eda0f).
+2024-08-20 18:41:51,237 ERROR discord.ui.view: Ignoring exception in view <PontoView timeout=180.0 children=4> for item <Button style=<ButtonStyle.danger: 4> url=None disabled=False label='???? Finalizar' emoji=<PartialEmoji animated=False name='????' id=None> row=None sku_id=None>
+Traceback (most recent call last):
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ui\view.py", line 423, in _scheduled_task
+    allow = await item.interaction_check(interaction) and await self.interaction_check(interaction)
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\ponto_CS.py", line 167, in interaction_check
+    ponto_aberto = self.verificar_ponto_aberto(user_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\ponto_CS.py", line 121, in verificar_ponto_aberto
+    self.c.execute('''
+sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 0, and there are 1 supplied.
+2024-08-20 18:41:56,693 ERROR discord.ui.view: Ignoring exception in view <PontoView timeout=180.0 children=4> for item <Button style=<ButtonStyle.danger: 4> url=None disabled=False label='???? Finalizar' emoji=<PartialEmoji animated=False name='????' id=None> row=None sku_id=None>
+Traceback (most recent call last):
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ui\view.py", line 423, in _scheduled_task
+    allow = await item.interaction_check(interaction) and await self.interaction_check(interaction)
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\ponto_CS.py", line 167, in interaction_check
+    ponto_aberto = self.verificar_ponto_aberto(user_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\ponto_CS.py", line 121, in verificar_ponto_aberto
+    self.c.execute('''
+sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 0, and there are 1 supplied.
+2024-08-20 18:42:04,340 ERROR discord.ui.view: Ignoring exception in view <PontoView timeout=180.0 children=4> for item <Button style=<ButtonStyle.secondary: 2> url=None disabled=False label='???? Voltar' emoji=<PartialEmoji animated=False name='????' id=None> row=None sku_id=None>
+Traceback (most recent call last):
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ui\view.py", line 423, in _scheduled_task
+    allow = await item.interaction_check(interaction) and await self.interaction_check(interaction)
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\ponto_CS.py", line 167, in interaction_check
+    ponto_aberto = self.verificar_ponto_aberto(user_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\ponto_CS.py", line 121, in verificar_ponto_aberto
+    self.c.execute('''
+sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 0, and there are 1 supplied.
+2024-08-20 18:42:09,681 ERROR discord.ui.view: Ignoring exception in view <PontoView timeout=180.0 children=4> for item <Button style=<ButtonStyle.primary: 1> url=None disabled=False label='?????? Pausar' emoji=<PartialEmoji animated=False name='??????' id=None> row=None sku_id=None>
+Traceback (most recent call last):
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ui\view.py", line 423, in _scheduled_task
+    allow = await item.interaction_check(interaction) and await self.interaction_check(interaction)
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\ponto_CS.py", line 167, in interaction_check
+    ponto_aberto = self.verificar_ponto_aberto(user_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\ponto_CS.py", line 121, in verificar_ponto_aberto
+    self.c.execute('''
+sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 0, and there are 1 supplied.
+2024-08-20 18:42:14,038 ERROR discord.ui.view: Ignoring exception in view <PontoView timeout=180.0 children=4> for item <Button style=<ButtonStyle.success: 3> url=None disabled=False label='???? Entrada' emoji=<PartialEmoji animated=False name='????' id=None> row=None sku_id=None>
+Traceback (most recent call last):
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ui\view.py", line 423, in _scheduled_task
+    allow = await item.interaction_check(interaction) and await self.interaction_check(interaction)
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\ponto_CS.py", line 167, in interaction_check
+    ponto_aberto = self.verificar_ponto_aberto(user_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\ponto_CS.py", line 121, in verificar_ponto_aberto
+    self.c.execute('''
+sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 0, and there are 1 supplied.
+2024-08-20 18:42:18,528 ERROR discord.ui.view: Ignoring exception in view <PontoView timeout=180.0 children=4> for item <Button style=<ButtonStyle.success: 3> url=None disabled=False label='???? Entrada' emoji=<PartialEmoji animated=False name='????' id=None> row=None sku_id=None>
+Traceback (most recent call last):
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ui\view.py", line 423, in _scheduled_task
+    allow = await item.interaction_check(interaction) and await self.interaction_check(interaction)
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\ponto_CS.py", line 167, in interaction_check
+    ponto_aberto = self.verificar_ponto_aberto(user_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\ponto_CS.py", line 121, in verificar_ponto_aberto
+    self.c.execute('''
+sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 0, and there are 1 supplied.
+2024-08-20 18:42:46,466 INFO bot: Bot est?? iniciando...
+2024-08-20 18:42:46,467 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-20 18:42:46,469 INFO discord.client: logging in using static token
+2024-08-20 18:42:47,402 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 0e3ba9f229b397e685569754a9ec511a).
+2024-08-20 18:42:57,739 ERROR discord.ui.view: Ignoring exception in view <PontoView timeout=180.0 children=4> for item <Button style=<ButtonStyle.success: 3> url=None disabled=False label='???? Entrada' emoji=<PartialEmoji animated=False name='????' id=None> row=None sku_id=None>
+Traceback (most recent call last):
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ui\view.py", line 423, in _scheduled_task
+    allow = await item.interaction_check(interaction) and await self.interaction_check(interaction)
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\ponto_CS.py", line 167, in interaction_check
+    ponto_aberto = self.verificar_ponto_aberto(user_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\ponto_CS.py", line 121, in verificar_ponto_aberto
+    self.c.execute('''
+sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 0, and there are 1 supplied.
+2024-08-20 18:48:12,713 INFO bot: Bot est?? iniciando...
+2024-08-20 18:48:12,714 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-20 18:48:12,716 INFO discord.client: logging in using static token
+2024-08-20 18:48:13,675 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: fa30a0028b434d4df787bd6f40a071f2).
+2024-08-20 18:48:30,385 ERROR discord.ui.view: Ignoring exception in view <PontoView timeout=180.0 children=4> for item <Button style=<ButtonStyle.danger: 4> url=None disabled=False label='???? Finalizar' emoji=<PartialEmoji animated=False name='????' id=None> row=None sku_id=None>
+Traceback (most recent call last):
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ui\view.py", line 423, in _scheduled_task
+    allow = await item.interaction_check(interaction) and await self.interaction_check(interaction)
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\ponto_CS.py", line 167, in interaction_check
+    ponto_aberto = self.verificar_ponto_aberto(user_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\ponto_CS.py", line 121, in verificar_ponto_aberto
+    self.c.execute('''
+sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 0, and there are 1 supplied.
+2024-08-20 18:49:13,319 ERROR discord.ui.view: Ignoring exception in view <PontoView timeout=180.0 children=4> for item <Button style=<ButtonStyle.success: 3> url=None disabled=False label='???? Entrada' emoji=<PartialEmoji animated=False name='????' id=None> row=None sku_id=None>
+Traceback (most recent call last):
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ui\view.py", line 423, in _scheduled_task
+    allow = await item.interaction_check(interaction) and await self.interaction_check(interaction)
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\ponto_CS.py", line 167, in interaction_check
+    ponto_aberto = self.verificar_ponto_aberto(user_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\ponto_CS.py", line 121, in verificar_ponto_aberto
+    self.c.execute('''
+sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 0, and there are 1 supplied.
+2024-08-20 18:52:02,758 INFO bot: Bot est?? iniciando...
+2024-08-20 18:52:02,759 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-20 18:52:02,761 INFO discord.client: logging in using static token
+2024-08-20 18:52:03,886 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: ec3c42f692eebab76a26987a096546a3).
+2024-08-20 19:00:14,150 INFO bot: Bot est?? iniciando...
+2024-08-20 19:00:14,151 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-20 19:00:14,153 INFO discord.client: logging in using static token
+2024-08-20 19:00:15,154 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 5e7b6f41202a41ef0dc860e2e06dc009).
+2024-08-20 19:00:20,715 ERROR discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\client.py", line 449, in _run_event
+    await coro(*args, **kwargs)
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\ext\commands\bot.py", line 1212, in get_prefix
+    ret = await discord.utils.maybe_coroutine(prefix, self, message)  # type: ignore
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\.venv\Lib\site-packages\discord\utils.py", line 692, in maybe_coroutine
+    value = f(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^
+  File "D:\aulas\ponto CS\ponto_CS.py", line 40, in get_prefix
+    with open('config.json', 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config.json'
+2024-08-20 19:08:23,382 INFO bot: Bot est?? iniciando...
+2024-08-20 19:08:23,383 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-20 19:08:23,385 INFO discord.client: logging in using static token
+2024-08-20 19:08:24,276 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: a9b66a9a66979370a14323cd054fff3c).
+2024-08-20 19:18:30,026 INFO bot: Bot est?? iniciando...
+2024-08-20 19:18:30,026 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-20 19:18:30,029 INFO discord.client: logging in using static token
+2024-08-20 19:18:31,065 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 0a95ae44629be97b3398f56ee4512616).
+2024-08-20 19:30:38,250 INFO bot: Bot est√° iniciando...
+2024-08-20 19:30:38,251 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-20 19:30:38,254 INFO discord.client: logging in using static token
+2024-08-20 19:30:39,314 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: a8bed81c23903caf9c478758758a9400).
