@@ -729,3 +729,44 @@ FileNotFoundError: [Errno 2] No such file or directory: 'config.json'
 2024-08-20 19:30:38,251 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
 2024-08-20 19:30:38,254 INFO discord.client: logging in using static token
 2024-08-20 19:30:39,314 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: a8bed81c23903caf9c478758758a9400).
+2024-08-27 10:15:10,231 INFO bot: Bot está iniciando...
+2024-08-27 10:15:10,238 INFO discord.client: logging in using static token
+2024-08-27 10:15:11,238 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 47657f48e704169736eff91264083b95).
+2024-08-27 10:32:41,936 INFO bot: Bot está iniciando...
+2024-08-27 10:32:41,937 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-27 10:41:32,971 INFO bot: Bot está iniciando...
+2024-08-27 10:41:32,972 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-27 10:41:41,051 INFO bot: Bot está iniciando...
+2024-08-27 10:41:41,052 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-27 10:46:02,974 INFO bot: Bot está iniciando...
+2024-08-27 10:46:02,975 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-27 10:46:02,977 INFO discord.client: logging in using static token
+2024-08-27 10:46:04,115 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: f0718313700ea0767257ca0ed3fe2845).
+2024-08-27 10:55:19,608 INFO bot: Bot está iniciando...
+2024-08-27 10:55:19,608 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-27 10:55:19,609 INFO discord.client: logging in using static token
+2024-08-27 10:55:20,534 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 76edebe3121d6ef95e83a91374bf86c6).
+2024-08-27 10:56:32,457 INFO bot: Bot está iniciando...
+2024-08-27 10:56:32,458 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-27 10:56:32,460 INFO discord.client: logging in using static token
+2024-08-27 10:56:33,865 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: cbbda4ac78cba240bf4bcda51b1229f7).
+2024-08-27 11:03:44,331 INFO bot: Bot está iniciando...
+2024-08-27 11:03:44,331 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-27 11:03:44,333 INFO discord.client: logging in using static token
+2024-08-27 11:03:45,402 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: cec702ccca868ba21d5d1c1516b12a8a).
+2024-08-27 11:08:48,994 INFO bot: Bot está iniciando...
+2024-08-27 11:08:48,995 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-27 11:08:48,996 INFO discord.client: logging in using static token
+2024-08-27 11:08:49,886 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 07803e385e864daad11663b4db31c88f).
+2024-08-27 11:29:50,219 INFO bot: Bot está iniciando...
+2024-08-27 11:29:50,220 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-27 11:29:50,221 INFO discord.client: logging in using static token
+2024-08-27 11:29:51,234 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: bfeb2ab0edcf883d9ce743f4502a81d7).
+2024-08-27 11:37:38,174 INFO bot: Bot está iniciando...
+2024-08-27 11:37:38,176 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-27 11:37:38,178 INFO discord.client: logging in using static token
+2024-08-27 11:37:39,161 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 8249b3b1187ef2d7fae4499fb9096978).
+2024-08-27 11:38:18,967 INFO bot: Bot está iniciando...
+2024-08-27 11:38:18,969 WARNING discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-08-27 11:38:18,971 INFO discord.client: logging in using static token
+2024-08-27 11:38:19,911 INFO discord.gateway: Shard ID None has connected to Gateway (Session ID: 9f9e749b628c5926276b2d4eb28245fd).

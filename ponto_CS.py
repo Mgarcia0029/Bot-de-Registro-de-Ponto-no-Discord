@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 import sqlite3
-from datetime import datetime
+from datetime import datetime, timedelta
 import os
 from discord.ui import View
 from dotenv import load_dotenv
@@ -26,14 +26,9 @@ logging.basicConfig(
 bot_logger = logging.getLogger('bot')
 bot_logger.info("Bot está iniciando...")
 
-# Verificar se o token foi carregado corretamente
-if not TOKEN:
-    raise ValueError("O token do bot não foi encontrado. Verifique se o arquivo .env está configurado corretamente.")
-
 # Configuração dos intents do bot
 intents = discord.Intents.default()
 intents.message_content = True
-
 
 # Função para carregar o prefixo dinâmico
 def get_prefix(bot, message):
@@ -48,77 +43,47 @@ def get_prefix(bot, message):
             json.dump(config, f, indent=4)
         return COMMAND_PREFIX
 
-
 bot = commands.Bot(command_prefix=get_prefix, intents=intents, help_command=commands.DefaultHelpCommand())
 
+@bot.event
+async def on_ready():
+    print(f'Bot conectado como {bot.user}')
 
-# Funções auxiliares para manipulação de comandos dinâmicos
-def load_dynamic_commands(file_path='commands.json'):
-    try:
-        with open(file_path, 'r') as f:
-            return json.load(f)
-    except FileNotFoundError:
-        return {"comandos": {}}
+# Dicionário para armazenar o estado dos usuários (inicialmente vazio)
+users = {}
 
+@bot.command()
+async def ponto(ctx):
+    """Envia uma mensagem com a interface de registro de ponto."""
+    user_id = str(ctx.author.id)
 
-def save_dynamic_commands(commands_data, file_path='commands.json'):
-    with open(file_path, 'w') as f:
-        json.dump(commands_data, f, indent=4)
+    # Verifica se o usuário já fechou o ponto e está dentro do tempo de tolerância
+    if user_id in users and users[user_id].get("ultimo_fechamento"):
+        tempo_restante = users[user_id]["ultimo_fechamento"] + timedelta(minutes=2) - datetime.now()
+        if tempo_restante.total_seconds() > 0:
+            minutos, segundos = divmod(int(tempo_restante.total_seconds()), 60)
+            await ctx.send(f"Você deve esperar {minutos} minutos e {segundos} segundos para abrir um novo ponto.")
+            return
 
+    embed = discord.Embed(
+        title="🔄 **Registro de Ponto**",
+        description="*Selecione uma das opções abaixo para registrar seu ponto:*",
+        color=0xFF5733
+    )
+    embed.add_field(name="🔓 **Entrada**", value="Inicie seu dia de trabalho.", inline=True)
+    embed.add_field(name="⏸️ **Pausar**", value="Marque o horário de pausa.", inline=True)
+    embed.add_field(name="🔄 **Voltar**", value="Registre o retorno da pausa.", inline=True)
+    embed.add_field(name="🚪 **Finalizar**", value="Finalize seu dia de trabalho.", inline=True)
+    embed.set_footer(text="Registro de Ponto • Seu Bot")
 
-def register_dynamic_command(bot, name, response):
-    @bot.command(name=name)
-    async def dynamic_command(ctx):
-        await ctx.send(response)
-
-
-# Carregar e registrar comandos dinâmicos
-commands_data = load_dynamic_commands()
-for cmd_name, response in commands_data.get("comandos", {}).items():
-    register_dynamic_command(bot, cmd_name, response)
-
-
-# Comandos do bot
-@bot.command(name='addcommand')
-@commands.has_permissions(administrator=True)
-async def add_command(ctx, command_name: str, *, response: str):
-    """Adiciona um novo comando dinâmico."""
-    commands_data["comandos"][command_name] = response
-    save_dynamic_commands(commands_data)
-    register_dynamic_command(bot, command_name, response)
-    await ctx.send(f'Comando `{command_name}` adicionado com sucesso!')
-
-
-@bot.command(name='removecommand')
-@commands.has_permissions(administrator=True)
-async def remove_command(ctx, command_name: str):
-    """Remove um comando dinâmico existente."""
-    if command_name in commands_data["comandos"]:
-        del commands_data["comandos"][command_name]
-        save_dynamic_commands(commands_data)
-        bot.remove_command(command_name)
-        await ctx.send(f'Comando `{command_name}` removido com sucesso!')
-    else:
-        await ctx.send(f'O comando `{command_name}` não existe.')
-
-
-@bot.command(name='setprefix')
-@commands.has_permissions(administrator=True)
-async def set_prefix(ctx, prefix: str):
-    """Altera o prefixo dos comandos do bot."""
-    with open('config.json', 'r+') as f:
-        config = json.load(f)
-        config['command_prefix'] = prefix
-        f.seek(0)
-        json.dump(config, f, indent=4)
-        f.truncate()
-    await ctx.send(f'O prefixo foi alterado para: {prefix}')
-
+    view = PontoView(user_id=user_id)  # Passa o ID do usuário para o PontoView
+    await ctx.send(embed=embed, view=view)
 
 # Classe para a interação com os botões de ponto
 class PontoView(View):
-    def __init__(self):
+    def __init__(self, user_id):
         super().__init__()
+        self.user_id = user_id
         self.conn = sqlite3.connect('bateponto.db')
         self.c = self.conn.cursor()
         self.c.execute('''CREATE TABLE IF NOT EXISTS pontos (
@@ -177,9 +142,8 @@ class PontoView(View):
     async def interaction_check(self, interaction: discord.Interaction) -> bool:
         """Verifica se a interação com os botões é permitida."""
         user_id = str(interaction.user.id)
-        ponto_aberto = self.verificar_ponto_aberto(user_id)
 
-        if ponto_aberto and ponto_aberto[1] != user_id:
+        if user_id != self.user_id:
             await interaction.response.send_message(
                 "Você não pode interagir com o ponto de outro usuário.",
                 ephemeral=True
@@ -260,6 +224,10 @@ class PontoView(View):
 
         timestamp = self.registrar_ponto(user_id, str(interaction.user), "finalizar")
         self.desativar_botoes()
+
+        # Armazenar o horário de fechamento do ponto
+        users[user_id] = {"ultimo_fechamento": datetime.now()}
+
         await interaction.response.edit_message(
             content=f'{interaction.user.mention}, ponto de finalização registrado às {timestamp}.',
             view=self
@@ -268,26 +236,6 @@ class PontoView(View):
             f'{interaction.user.mention}, você finalizou o seu dia de trabalho. Use o comando `!ponto` para iniciar um novo ciclo de Trabalho.',
             ephemeral=True
         )
-
-
-# Comando para iniciar o registro de ponto
-@bot.command(name='ponto')
-async def ponto(ctx):
-    """Envia uma mensagem com a interface de registro de ponto."""
-    embed = discord.Embed(
-        title="🔄 **Registro de Ponto**",
-        description="*Selecione uma das opções abaixo para registrar seu ponto:*",
-        color=0xFF5733
-    )
-    embed.add_field(name="🔓 **Entrada**", value="Inicie seu dia de trabalho.", inline=True)
-    embed.add_field(name="⏸️ **Pausar**", value="Marque o horário de pausa.", inline=True)
-    embed.add_field(name="🔄 **Voltar**", value="Registre o retorno da pausa.", inline=True)
-    embed.add_field(name="🚪 **Finalizar**", value="Finalize seu dia de trabalho.", inline=True)
-    embed.set_footer(text="Registro de Ponto • Seu Bot")  # Removi o `icon_url` para evitar o erro
-
-    view = PontoView()  # Cria uma nova instância de PontoView com botões ativos
-    await ctx.send(embed=embed, view=view)
-
 
 # Inicializar o bot
 if __name__ == "__main__":
