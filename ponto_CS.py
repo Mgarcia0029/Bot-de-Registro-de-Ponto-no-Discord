@@ -13,49 +13,64 @@ load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 COMMAND_PREFIX = os.getenv('COMMAND_PREFIX', '!')
 LOG_LEVEL = os.getenv('LOG_LEVEL', 'INFO')
+LOG_CHANNEL_ID = 1278022615440691231  # ID do canal de logs
 
-# Configuração do logging
-logging.basicConfig(
-    level=getattr(logging, LOG_LEVEL.upper(), logging.INFO),
-    format='%(asctime)s %(levelname)s %(name)s: %(message)s',
-    handlers=[
-        logging.FileHandler("bot_log.txt", encoding="utf-8"),
-        logging.StreamHandler()
-    ]
-)
-bot_logger = logging.getLogger('bot')
-bot_logger.info("Bot está iniciando...")
+
+# Configuração do logging para enviar logs a um canal específico no Discord
+class DiscordHandler(logging.Handler):
+    def __init__(self, bot, channel_id):
+        super().__init__()
+        self.bot = bot
+        self.channel_id = channel_id
+
+    async def _send_log(self, message):
+        # Enviar a mensagem de log para o canal especificado
+        channel = self.bot.get_channel(self.channel_id)
+        if channel:
+            await channel.send(message)
+
+    def emit(self, record):
+        log_entry = self.format(record)
+        self.bot.loop.create_task(self._send_log(log_entry))
+
 
 # Configuração dos intents do bot
 intents = discord.Intents.default()
 intents.message_content = True
 
-# Função para carregar o prefixo dinâmico
-def get_prefix(bot, message):
-    try:
-        with open('config.json', 'r') as f:
-            config = json.load(f)
-            return config.get('command_prefix', COMMAND_PREFIX)
-    except FileNotFoundError:
-        # Criar o arquivo config.json com valor padrão se não existir
-        config = {'command_prefix': COMMAND_PREFIX}
-        with open('config.json', 'w') as f:
-            json.dump(config, f, indent=4)
-        return COMMAND_PREFIX
+bot = commands.Bot(command_prefix=COMMAND_PREFIX, intents=intents, help_command=commands.DefaultHelpCommand())
 
-bot = commands.Bot(command_prefix=get_prefix, intents=intents, help_command=commands.DefaultHelpCommand())
 
 @bot.event
 async def on_ready():
     print(f'Bot conectado como {bot.user}')
 
-# Dicionário para armazenar o estado dos usuários (inicialmente vazio)
+    # Configure o logger agora que o bot está pronto
+    bot_logger = logging.getLogger('bot')
+    bot_logger.setLevel(logging.INFO)
+
+    if LOG_CHANNEL_ID:
+        discord_handler = DiscordHandler(bot, LOG_CHANNEL_ID)
+        discord_handler.setLevel(logging.INFO)
+        formatter = logging.Formatter('%(asctime)s %(levelname)s %(name)s: %(message)s')
+        discord_handler.setFormatter(formatter)
+        bot_logger.addHandler(discord_handler)
+
+    bot_logger.info("Bot iniciado e pronto para uso!")
+
+
+# Dicionário para armazenar o estado dos usuários e se o painel está ativo
 users = {}
+
 
 @bot.command()
 async def ponto(ctx):
-    """Envia uma mensagem com a interface de registro de ponto."""
     user_id = str(ctx.author.id)
+
+    # Verifica se o usuário já tem um painel aberto
+    if user_id in users and users[user_id].get("painel_aberto"):
+        await ctx.send("Você já tem um painel aberto. Finalize-o antes de abrir um novo.")
+        return
 
     # Verifica se o usuário já fechou o ponto e está dentro do tempo de tolerância
     if user_id in users and users[user_id].get("ultimo_fechamento"):
@@ -76,14 +91,17 @@ async def ponto(ctx):
     embed.add_field(name="🚪 **Finalizar**", value="Finalize seu dia de trabalho.", inline=True)
     embed.set_footer(text="Registro de Ponto • Seu Bot")
 
-    view = PontoView(user_id=user_id)  # Passa o ID do usuário para o PontoView
+    view = PontoView(user_id=user_id, message=ctx.message)  # Passa o ID do usuário e a mensagem original para PontoView
+    users[user_id] = {"painel_aberto": True, "view": view}  # Marca que o painel está aberto
     await ctx.send(embed=embed, view=view)
+
 
 # Classe para a interação com os botões de ponto
 class PontoView(View):
-    def __init__(self, user_id):
+    def __init__(self, user_id, message):
         super().__init__()
         self.user_id = user_id
+        self.message = message
         self.conn = sqlite3.connect('bateponto.db')
         self.c = self.conn.cursor()
         self.c.execute('''CREATE TABLE IF NOT EXISTS pontos (
@@ -158,6 +176,12 @@ class PontoView(View):
             return False
         return True
 
+    async def log_action(self, interaction, action):
+        """Envia o log de uma ação para o canal de logs."""
+        log_message = f"{interaction.user.name} realizou a ação '{action}' no ponto."
+        bot_logger = logging.getLogger('bot')
+        bot_logger.info(log_message)
+
     @discord.ui.button(label="🔓 Entrada", style=discord.ButtonStyle.success, emoji="🟢")
     async def entrada_button(self, interaction: discord.Interaction, _button: discord.ui.Button):
         """Ação do botão 'Entrada'."""
@@ -173,6 +197,7 @@ class PontoView(View):
         timestamp = self.registrar_ponto(user_id, str(interaction.user), "entrada")
         await interaction.response.send_message(
             f'{interaction.user.mention}, ponto de entrada registrado às {timestamp}.', ephemeral=True)
+        await self.log_action(interaction, "Entrada")
 
     @discord.ui.button(label="⏸️ Pausar", style=discord.ButtonStyle.primary, emoji="⏸️")
     async def pausar_button(self, interaction: discord.Interaction, _button: discord.ui.Button):
@@ -195,6 +220,7 @@ class PontoView(View):
         timestamp = self.registrar_ponto(user_id, str(interaction.user), "pausa")
         await interaction.response.send_message(
             f'{interaction.user.mention}, ponto de pausa registrado às {timestamp}.', ephemeral=True)
+        await self.log_action(interaction, "Pausar")
 
     @discord.ui.button(label="🔄 Voltar", style=discord.ButtonStyle.secondary, emoji="🔄")
     async def voltar_button(self, interaction: discord.Interaction, _button: discord.ui.Button):
@@ -210,32 +236,42 @@ class PontoView(View):
         timestamp = self.registrar_ponto(user_id, str(interaction.user), "voltar")
         await interaction.response.send_message(
             f'{interaction.user.mention}, retorno da pausa registrado às {timestamp}.', ephemeral=True)
+        await self.log_action(interaction, "Voltar")
 
     @discord.ui.button(label="🚪 Finalizar", style=discord.ButtonStyle.danger, emoji="🔴")
     async def finalizar_button(self, interaction: discord.Interaction, _button: discord.ui.Button):
         """Ação do botão 'Finalizar'."""
         user_id = str(interaction.user.id)
 
+        # Verifica se há um ponto de entrada não finalizado
         ponto_aberto = self.verificar_ponto_aberto(user_id)
         if not ponto_aberto:
             await interaction.response.send_message(
                 f'{interaction.user.mention}, você não tem nenhum ponto aberto para finalizar.', ephemeral=True)
             return
 
+        # Registra o ponto de finalização no banco de dados
         timestamp = self.registrar_ponto(user_id, str(interaction.user), "finalizar")
+
+        # Desativa os botões após finalização
         self.desativar_botoes()
 
-        # Armazenar o horário de fechamento do ponto
-        users[user_id] = {"ultimo_fechamento": datetime.now()}
+        # Atualiza o status do usuário no dicionário 'users'
+        users[user_id]["ultimo_fechamento"] = datetime.now()
+        users[user_id]["painel_aberto"] = False
 
+        # Edita a mensagem para refletir a finalização
         await interaction.response.edit_message(
             content=f'{interaction.user.mention}, ponto de finalização registrado às {timestamp}.',
-            view=self
+            view=None  # Remove a view após finalização
         )
-        await interaction.followup.send(
-            f'{interaction.user.mention}, você finalizou o seu dia de trabalho. Use o comando `!ponto` para iniciar um novo ciclo de Trabalho.',
-            ephemeral=True
-        )
+
+        # Log da ação de finalizar
+        await self.log_action(interaction, "Finalizar")
+
+        # Deleta a mensagem original para remover o painel de ponto da tela
+        await self.message.delete()
+
 
 # Inicializar o bot
 if __name__ == "__main__":
