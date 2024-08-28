@@ -62,59 +62,6 @@ async def on_ready():
 users = {}
 
 
-# Comando para adicionar novos comandos personalizados
-@bot.command(name='addcommand')
-@commands.has_permissions(administrator=True)
-async def add_command(ctx, command_name: str, *, response: str):
-    """Adiciona um novo comando dinâmico."""
-    if bot.get_command(command_name):
-        await ctx.send(f"Um comando com o nome `{command_name}` já existe.")
-        return
-
-    async def dynamic_command(ctx):
-        await ctx.send(response)
-
-    # Registrar o comando no bot
-    bot.add_command(commands.Command(dynamic_command, name=command_name))
-    await ctx.send(f'Comando `{command_name}` adicionado com sucesso!')
-
-    # Logando a adição do comando
-    bot_logger = logging.getLogger('bot')
-    bot_logger.info(f'Comando `{command_name}` adicionado pelo usuário {ctx.author.name}.')
-
-
-# Comando para remover comandos personalizados
-@bot.command(name='removecommand')
-@commands.has_permissions(administrator=True)
-async def remove_command(ctx, command_name: str):
-    """Remove um comando dinâmico existente."""
-    command = bot.get_command(command_name)
-    if command:
-        bot.remove_command(command_name)
-        await ctx.send(f'Comando `{command_name}` removido com sucesso!')
-
-        # Logando a remoção do comando
-        bot_logger = logging.getLogger('bot')
-        bot_logger.info(f'Comando `{command_name}` removido pelo usuário {ctx.author.name}.')
-    else:
-        await ctx.send(f'O comando `{command_name}` não existe.')
-
-
-# Comando para alterar o prefixo do bot
-@bot.command(name='setprefix')
-@commands.has_permissions(administrator=True)
-async def set_prefix(ctx, prefix: str):
-    """Altera o prefixo dos comandos do bot."""
-    COMMAND_PREFIX = prefix
-    bot.command_prefix = prefix
-    await ctx.send(f'O prefixo foi alterado para: {prefix}')
-
-    # Logando a mudança de prefixo
-    bot_logger = logging.getLogger('bot')
-    bot_logger.info(f'O prefixo foi alterado para `{prefix}` pelo usuário {ctx.author.name}.')
-
-
-# Comando de registro de ponto (mantido como antes)
 @bot.command()
 async def ponto(ctx):
     user_id = str(ctx.author.id)
@@ -143,7 +90,8 @@ async def ponto(ctx):
 
     view = PontoView(user_id=user_id, message=ctx.message)
     users[user_id] = {"painel_aberto": True, "view": view}
-    await ctx.send(embed=embed, view=view)
+    message = await ctx.send(embed=embed, view=view)
+    users[user_id]["message_id"] = message.id  # Armazena o ID da mensagem para exclusão posterior
 
 
 class PontoView(View):
@@ -294,18 +242,39 @@ class PontoView(View):
         users[user_id]["ultimo_fechamento"] = datetime.now()
         users[user_id]["painel_aberto"] = False
 
-        await interaction.response.edit_message(
-            content=f'{interaction.user.mention}, ponto de finalização registrado às {timestamp}.',
-            view=None  # Remover a view após finalizar
-        )
-        await interaction.followup.send(
-            f'{interaction.user.mention}, você finalizou o seu dia de trabalho. Use o comando `!ponto` para iniciar um novo ciclo de Trabalho.',
-            ephemeral=True
+        # Obtenha a mensagem original e exclua-a após finalizar
+        message_id = users[user_id].get("message_id")
+        if message_id:
+            try:
+                message = await interaction.channel.fetch_message(message_id)
+                await message.delete()
+            except discord.NotFound:
+                pass  # A mensagem já foi excluída, nada mais a fazer
+
+        try:
+            # Exclui a mensagem do botão e envia uma mensagem de finalização
+            await interaction.response.edit_message(content=None, view=None)
+        except discord.NotFound:
+            pass  # A mensagem já foi excluída, nada mais a fazer
+
+        # Exclui todas as mensagens enviadas pelo bot no canal
+        try:
+            async for msg in interaction.channel.history(limit=100):
+                if msg.author == interaction.client.user:
+                    await msg.delete()
+        except discord.Forbidden:
+            await interaction.channel.send(
+                f'{interaction.user.mention}, eu não tenho permissão para excluir mensagens.',
+                ephemeral=True
+            )
+            return
+
+        # Envia a mensagem de finalização
+        await interaction.channel.send(
+            f'{interaction.user.mention}, ponto de finalização registrado às {timestamp}. O painel foi fechado.'
         )
 
         await self.log_action(interaction, "Finalizar")
-
-        await self.message.delete()
 
 
 # Inicializar o bot
