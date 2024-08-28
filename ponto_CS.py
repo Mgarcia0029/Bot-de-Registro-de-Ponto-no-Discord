@@ -6,7 +6,6 @@ import os
 from discord.ui import View
 from dotenv import load_dotenv
 import logging
-import json
 
 # Carregar variáveis de ambiente do arquivo .env
 load_dotenv()
